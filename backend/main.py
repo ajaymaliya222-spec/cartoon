@@ -17,7 +17,7 @@ characters = {
 
 @app.get("/")
 def home():
-    return {"message": "Cartoon API is running", "endpoints": ["/shinchan", "/doraemon", "/ben10", "/characters", "/character","i wann to fuck you hard "]}
+    return {"message": "Cartoon API is running", "endpoints": ["/shinchan", "/doraemon", "/ben10", "/characters", "/character"]}
 
 @app.get("/apna_product")
 def apna_product():
